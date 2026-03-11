@@ -41,7 +41,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
-
+            implementation(libs.maplibre.compose)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.uri.kmp)
             implementation(libs.navigation.compose)

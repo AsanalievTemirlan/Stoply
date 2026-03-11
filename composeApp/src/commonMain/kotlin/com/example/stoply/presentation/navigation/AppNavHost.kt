@@ -14,7 +14,7 @@ fun AppNavHost() {
 
     NavHost(
         navController = navController,
-        startDestination = MainScreenRoute
+        startDestination = MapScreenRoute
     ) {
         composable<MainScreenRoute> {
             MainScreen(navController)
